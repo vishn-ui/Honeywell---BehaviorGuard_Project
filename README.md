@@ -47,7 +47,6 @@ behaviorguard/
 | Explainability | `explain.py` — deviation-feature attribution, plain-language phrasing |
 | Cold-start | `features.py`'s `BaselineProfiler` falls back to population-level priors under 5 prior events |
 
-## Notes for the hackathon demo
 
 - Default run generates 300 entities × 45 days (~65k events, ~2% anomalous) — trains
   in well under a minute on CPU.
