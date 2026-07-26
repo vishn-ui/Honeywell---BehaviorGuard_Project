@@ -1,0 +1,155 @@
+{
+  "val": {
+    "loss": 0.2615563646434696,
+    "report": "                     precision    recall  f1-score   support\n\n             normal      0.999     0.941     0.969      9607\n        brute_force      0.987     1.000     0.993        75\n  impossible_travel      0.018     0.556     0.034        18\ncredential_stuffing      1.000     1.000     1.000        30\n   lateral_movement      0.861     0.969     0.912        32\n    device_spoofing      1.000     1.000     1.000         7\n low_and_slow_exfil      0.682     0.833     0.750        18\n\n           accuracy                          0.941      9787\n          macro avg      0.792     0.900     0.808      9787\n       weighted avg      0.996     0.941     0.967      9787\n",
+    "confusion_matrix": [
+      [
+        9042,
+        1,
+        555,
+        0,
+        3,
+        0,
+        6
+      ],
+      [
+        0,
+        75,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        31,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        15
+      ]
+    ],
+    "fp_rate_at_budget": 0.0,
+    "recall_at_budget": 0.5388888888888889,
+    "pr_auc": 0.9436704280274516
+  },
+  "test": {
+    "loss": 0.2824218088630223,
+    "report": "                     precision    recall  f1-score   support\n\n             normal      0.999     0.935     0.966      9660\n        brute_force      0.977     1.000     0.988        42\n  impossible_travel      0.017     0.611     0.034        18\ncredential_stuffing      1.000     1.000     1.000        15\n   lateral_movement      0.907     0.975     0.940        40\n    device_spoofing      1.000     1.000     1.000         6\n low_and_slow_exfil      0.200     0.333     0.250         6\n\n           accuracy                          0.935      9787\n          macro avg      0.729     0.836     0.740      9787\n       weighted avg      0.996     0.935     0.964      9787\n",
+    "confusion_matrix": [
+      [
+        9032,
+        1,
+        618,
+        0,
+        2,
+        0,
+        7
+      ],
+      [
+        0,
+        42,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    ],
+    "fp_rate_at_budget": 0.010309278350515427,
+    "recall_at_budget": 0.7559055118110236,
+    "pr_auc": 0.9127989290370375
+  },
+  "classes": [
+    "normal",
+    "brute_force",
+    "impossible_travel",
+    "credential_stuffing",
+    "lateral_movement",
+    "device_spoofing",
+    "low_and_slow_exfil"
+  ]
+}
